@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mon Portfolio | HABACUC KATSHIOKO</title>
+</head>
+<body>
+    <header id="header" >
+        <div class="container">
+            <nav>
+                <p class="logo" id="logo"><span>H</span>ABACUC</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">A propos</a></li>
+                    <li><a href="#portfolio">Realisation</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-close" onclick="closemenu()">X</i>
+                </ul>
+                
+                <i class="fas fa-bar" onclick="openmenu()">|||</i>
+            </nav>
+            <div class="header-text">
+                <p>Developpeur web</p>
+                <h1>Salut , Je suis <span>HABACUC</span><br> KATSHIOKO</h1>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/img1.jpg" alt="" srcset="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">A propos de Moi</h1>
+                    <p>Le metier de l'informatique est une de me plus grande passion, je m'inspire des grands nom dans ce domaine et je mets tout mon temps pour apprendre encore et encore<br>
+                    J'aime rendre service et mettre mon savoir pour resoudre les problemes de la sociéte et j'aime interagir avec mes contacts et autre.
+                    <br> comme je le dis souvent ma raison de vivre et de vous satisfaire.<br> faisons de ce monde un monde meilleur ensemble</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Compétance</p>
+                            <p class="tab-links " onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Developpement web</span><br>Developpeur web php laravel<br>Node js</li>
+                                <li><span>Developpement mobile</span><br>Developpeur application mobile</li>
+                                <li><span>Developpement desktop</span><br>Developpeur C# , java</li>
+                                <li><span>Graphique designer</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2020-2021 : CIGA S.A.R.L</span><br>Developpeur web <br>assistant Desktop Team</li>
+                                <li><span>2020 : ACTOMIC ONGD</span><br>Stagiaire developpeur c#</li>
+                                <li><span>2019-2020 : Direction generale des impots (DGI)</span><br>Stagiaire Direction Informatique</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2021-2022 : Licence (UNIKIN) encours</span><br>Ingenieur Informaticien(encours...)</li>
+                                <li><span>2019-2020 : Diplome de graduat(UNIKIN)</span><br>Analyste Programmeur avec 67%</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title">Mes Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-code"></i>
+                    <h2>Creation Application web</h2>
+                    <p>je crée des sites web et application web sur mesure et professionnel à moindre cout.</p>
+                        <a href="#"> Lire plus</a>
+                </div>
+                <div>
+                    <i class="fa fa-code"></i>
+                    <h2>Application Mobile</h2>
+                    <p>obtenez votre application mobile dans les delais et à moindre cout.</p>
+                        <a href="#"> Lire plus</a>
+                </div>
+                <div>
+                    <i class="fa fa-code"></i>
+                    <h2>Application Desktop</h2>
+                    <p>Je mets à votre disposition des applications professionnelles et sur mesure; des CRM et ERP Préfabriqués qui va selon votre attente.</p>
+                        <a href="#"> Lire plus</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">
+                Mes projets Réalisés
+            </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/img2 (1).jpg" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Application web</h3>
+                        <p></p>
+                             <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/img2 (2).jpg" alt="" srcset="">
+                    <figure class="layer">
+                        <h3>App Mobile</h3>
+                        <p></p>
+                             <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </figure>
+                </div>
+                <div class="work">
+                    <img src="img/img2 (3).jpg" alt="" srcset="">
+                    <figure class="layer">
+                        <h3>Application Desktop</h3>
+                        <p></p>
+                             <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </figure>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">Voir Plus</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contactez moi</h1>
+                    <p><i class="fas fa-paper-plane"></i> habacucmajamba.dev@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +243 827-740-357</p>
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn btn2">Telecharger  CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="#" name="submit-to-google-sheet">
+                        <input type="text" name="name" id="" placeholder="Tapez votre nom" required>
+                        <input type="email" name="email" id="" placeholder="Tapez votre Email" required>
+                        <textarea name="message" id="" cols="7" rows="6" placeholder="Ecrivez..."></textarea>
+                      <button type="submit" class="btn btn2">Envoyez</button>
+                    </form>
+                    <span id="msg" ></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy; by HABACUC <i class="fas fa-hearth">&hearts;</i> <span id="year"></span> all reserved by LibangaTech</p>
+        </div>
+    </section>
+    <script> 
+    const year=document.getElementById("year");
+    year.innerHTML= new Date().getFullYear().toString();
+    </script>
+    <script>
+        
+        window.addEventListener("scroll",()=>{
+            var header=document.querySelector('nav');
+            var logo=document.getElementById('logo');
+            header.classList.toggle('styles',window.scrollY>0);
+            logo.innerHTML= "<span>H</span>ABACUC";
+        })
+    </script>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+       // var tablinks=document.getElementsByClassName('tab-links');
+        function opentab(tabnames)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove('active-tab');
+            } 
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabnames).classList.add("active-tab");
+        }
+    </script>
+    <script>
+           var sidemenu=document.getElementById("sidemenu");
+           function openmenu()
+           {
+            sidemenu.style.right="0";
+           }
+           function closemenu()
+           {
+            sidemenu.style.right="-500px";
+           }
+
+
+    </script>
+    <script>
+        const scriptURL='<URL>';
+            const form=document.forms['submit-to-google-sheet'];
+            const msg=document.getElementById("msg")
+            form.addEventListener('submit',e=>{
+                e.preventDefault();
+                fetch(scriptURL,{method:'POST',body:new FormData(form)})
+                .then(response=>{msg.innerHTML="Message success!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+                .catch(error=>console.error('Error!',error.message))
+            })
+    </script>
+</body>
+</html>
